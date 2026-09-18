@@ -14,7 +14,7 @@
     2.2.2 : Si non
               on affiche un message d'erreur à l'utilisateur "Votre nombre ne correspond pas un un nombre de la suite de Wallis"
 3 : Calculer la suite de Whalis
-  3.1 Initialisation du premier terme avec a =2 (numérateur) et b =1 (dénominateur)
+  3.1 Initialisation du premier terme avec a = 2 (numérateur) et b = 1 (dénominateur)
   3.2 Boucle tant que a <= numérateur saisi par l'utilisateur et que b <= denominateur saisi par l'utilisateur
           3.2.1 si a > b 
           On incrément 2 à b
@@ -22,11 +22,10 @@
           On incrément 2 à a
        3.3 Calcul de la valeur 
   3.3.1 Si a est différent de 2 et b est différent de 3
-    3.3.2 Calcul de le suite de Wallis
-     v_numerateur = v_numerateur *a
-    v_denominateur = v_denominateur *b
-  3.3.2 Si a égal à 2 et b égal à 1
+    3.3.1.2 Calcul de le suite de Wallis
+       v_numerateur = v_numerateur *a
+      v_denominateur = v_denominateur *b
+  3.3.2 Si a égal à 2 et b égal à 1 (c'est la première boucle)
       v_numerateur = 2*a
       v_denominateur = 3*b
-4 : Afficher le résultat
-4.1 Calcul du résultat 
+4 : Afficher le résultat "v_numerateur/v_denominateur"
