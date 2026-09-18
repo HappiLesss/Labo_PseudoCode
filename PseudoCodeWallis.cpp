@@ -27,5 +27,5 @@
       v_denominateur = v_denominateur *b
   3.3.2 Si a égal à 2 et b égal à 1 (c'est la première boucle)
       v_numerateur = 2*a
-      v_denominateur = 3*b
+      v_denominateur = 1*b
 4 : Afficher le résultat "v_numerateur/v_denominateur"
